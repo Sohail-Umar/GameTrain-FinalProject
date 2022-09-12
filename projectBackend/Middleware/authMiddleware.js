@@ -58,7 +58,7 @@ const storage = multer.diskStorage({
     }
 })
 
-const upload = multer({ storage: storage }).single("anything")
+const upload = multer({ storage: storage }).single("upload")
 
 
 

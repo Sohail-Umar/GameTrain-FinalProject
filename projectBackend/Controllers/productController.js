@@ -19,7 +19,6 @@ const addProduct = async (req, res) => {
             category: req.body.category,
             price: req.body.price,
             image: req.file.filename
-
         })
         res.status(200).json(newproduct)
         return;
